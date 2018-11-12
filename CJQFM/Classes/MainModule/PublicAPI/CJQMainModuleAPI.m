@@ -24,6 +24,14 @@
     [[CJQTabBarController shareInstance] addChildVC:vc normalImageName:normalImageName selectedImageName:selectedImageName isRequiredNavController:isRequired ];
 }
 
++ (void)addChildVC: (NSArray *)para {
+    
+    UIViewController *vc = para[0];
+    NSString *normalImageName = para[1];
+    NSString *selectedImaegName = para[2];
+    BOOL   isRequired = para[3];
+    [self addChildVC:vc normalImageName:normalImageName selectedImageName:selectedImaegName isRequiredNavController:isRequired];
+}
 
 
 + (void)setTabBarMiddleBtnClick: (void(^)(BOOL isPlaying))middleClickBlock {

@@ -30,6 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)addChildVC: (UIViewController *)vc normalImageName: (NSString *)normalImageName selectedImageName: (NSString *)selectedImageName isRequiredNavController: (BOOL)isRequired;
 
++ (void)addChildVC: (NSArray *)para;
+
 
 /**
  * 设置tarbar中间圆形控件的点击时要执行的代码块

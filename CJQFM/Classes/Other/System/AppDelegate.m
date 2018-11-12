@@ -10,7 +10,8 @@
 //#import "CJQTabBarController.h"
 #import "CJQTestOneVC.h"
 //#import "CJQTabBar.h"
-#import "CJQMainModuleAPI.h"
+//#import "CJQMainModuleAPI.h"
+#import "CJQMediatorManger+CJQMain.h"
 @interface AppDelegate ()
 
 @end
@@ -53,33 +54,53 @@
 //    self.window.rootViewController = rootVC;
     
     //1.增加公共API，以降低耦合度
-    [CJQMainModuleAPI addChildVC:[CJQTestOneVC new]
-                      normalImageName:@"tabbar_find_n"
-                      selectedImageName:@"tabbar_find_h"
-                      isRequiredNavController: YES ];
-    [CJQMainModuleAPI addChildVC:[UIViewController new]
-                      normalImageName: @"tabbar_sound_n"
-                      selectedImageName:@"tabbar_sound_h"
-                      isRequiredNavController: YES ];
-    [CJQMainModuleAPI addChildVC:[UIViewController new]
-                      normalImageName:@"tabbar_download_n"
-                      selectedImageName:@"tabbar_download_h"
-                      isRequiredNavController:  YES];
-    [CJQMainModuleAPI addChildVC:[UIViewController new]
-                      normalImageName:@"tabbar_me_n"
-                      selectedImageName:@"tabbar_me_h"
-                      isRequiredNavController: YES ];
+//    [CJQMainModuleAPI addChildVC:[CJQTestOneVC new]
+//                      normalImageName:@"tabbar_find_n"
+//                      selectedImageName:@"tabbar_find_h"
+//                      isRequiredNavController: YES ];
+//    [CJQMainModuleAPI addChildVC:[UIViewController new]
+//                      normalImageName: @"tabbar_sound_n"
+//                      selectedImageName:@"tabbar_sound_h"
+//                      isRequiredNavController: YES ];
+//    [CJQMainModuleAPI addChildVC:[UIViewController new]
+//                      normalImageName:@"tabbar_download_n"
+//                      selectedImageName:@"tabbar_download_h"
+//                      isRequiredNavController:  YES];
+//    [CJQMainModuleAPI addChildVC:[UIViewController new]
+//                      normalImageName:@"tabbar_me_n"
+//                      selectedImageName:@"tabbar_me_h"
+//                      isRequiredNavController: YES ];
+//
+//    [CJQMainModuleAPI setTabBarMiddleBtnClick:^(BOOL isPlaying) {
+//
+//                if (isPlaying) {
+//                    NSLog(@"palying");
+//                }else {
+//                    NSLog(@"stop");
+//                }
+//    }];
+//
+//    self.window.rootViewController = [CJQMainModuleAPI rootTabBarController];
     
-    [CJQMainModuleAPI setTabBarMiddleBtnClick:^(BOOL isPlaying) {
-        
-                if (isPlaying) {
-                    NSLog(@"palying");
-                }else {
-                    NSLog(@"stop");
-                }
-    }];
+    // 3 .体验路由方案（target-action)
+    [CJQMediatorManger addChildVC:[CJQTestOneVC new]
+                       normalImageName:@"tabbar_find_n"
+                       selectedImageName:@"tabbar_find_h"
+                       isRequiredNavController:YES];
+    [CJQMediatorManger addChildVC:[UIViewController new]
+                  normalImageName:@"tabbar_sound_n"
+                selectedImageName:@"tabbar_sound_h"
+          isRequiredNavController:YES];
+    [CJQMediatorManger addChildVC:[UIViewController new]
+                  normalImageName:@"tabbar_download_n"
+                selectedImageName:@"tabbar_download_h"
+          isRequiredNavController:YES];
+    [CJQMediatorManger addChildVC:[UIViewController new]
+                  normalImageName:@"tabbar_me_n"
+                selectedImageName:@"tabbar_me_h"
+          isRequiredNavController:YES];
     
-    self.window.rootViewController = [CJQMainModuleAPI rootTabBarController];
+    self.window.rootViewController = [CJQMediatorManger rootTabBarController];
     [self.window  makeKeyAndVisible];
     return YES;
     

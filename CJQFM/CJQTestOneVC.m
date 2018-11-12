@@ -8,7 +8,7 @@
 
 #import "CJQTestOneVC.h"
 #import "CJQTestTwoVC.h"
-
+#import "CJQMediatorManger.h"
 @interface CJQTestOneVC ()
 
 @end
@@ -36,6 +36,7 @@
      
     [self.navigationController pushViewController:[CJQTestTwoVC new] animated:YES];
     
+    //CJQMediatorManger performTarget:<#(nonnull NSString *)#> action:<#(nonnull NSString *)#> params:<#(nonnull id)#> isRequiredReturnValue:<#(BOOL)#>
 }
 
 
