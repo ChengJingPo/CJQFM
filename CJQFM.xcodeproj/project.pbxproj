@@ -20,6 +20,7 @@
 		6354D2CD2184572900AC15A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6354D2C92184572900AC15A7 /* main.m */; };
 		6354D2CE2184572900AC15A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6354D2CA2184572900AC15A7 /* AppDelegate.m */; };
 		6354D2DA21845CFB00AC15A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6354D2B42184564800AC15A7 /* LaunchScreen.storyboard */; };
+		6355E6262228C77C0028471B /* CJQMainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355E6252228C77C0028471B /* CJQMainModuleAPI.m */; };
 		E41246F46575F615FBB18E61 /* libPods-CJQFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A32787DD5444B933C62FA90 /* libPods-CJQFM.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		6354D2C92184572900AC15A7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6354D2CA2184572900AC15A7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6354D2CB2184572900AC15A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6355E6242228C77C0028471B /* CJQMainModuleAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJQMainModuleAPI.h; sourceTree = "<group>"; };
+		6355E6252228C77C0028471B /* CJQMainModuleAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJQMainModuleAPI.m; sourceTree = "<group>"; };
 		74B116528E4E83535680BF4C /* Pods-CJQFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJQFM.debug.xcconfig"; path = "Target Support Files/Pods-CJQFM/Pods-CJQFM.debug.xcconfig"; sourceTree = "<group>"; };
 		F0B5D0F4B39F6D420C6BE8EE /* Pods-CJQFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJQFM.release.xcconfig"; path = "Target Support Files/Pods-CJQFM/Pods-CJQFM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +72,7 @@
 			children = (
 				6307EDF42228345E00B4F4FB /* Controller */,
 				6307EDF92228345E00B4F4FB /* View */,
+				6355E6202228C71B0028471B /* PublicAPI */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -165,6 +169,15 @@
 				6354D2B42184564800AC15A7 /* LaunchScreen.storyboard */,
 			);
 			path = ReSources;
+			sourceTree = "<group>";
+		};
+		6355E6202228C71B0028471B /* PublicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6355E6242228C77C0028471B /* CJQMainModuleAPI.h */,
+				6355E6252228C77C0028471B /* CJQMainModuleAPI.m */,
+			);
+			path = PublicAPI;
 			sourceTree = "<group>";
 		};
 		86662C4B2E9D7274835B22B9 /* Frameworks */ = {
@@ -285,6 +298,7 @@
 				6307EE012228345F00B4F4FB /* CJQTabBarController.m in Sources */,
 				6313323A218BF65800040D8B /* CJQTestOneVC.m in Sources */,
 				6354D2CD2184572900AC15A7 /* main.m in Sources */,
+				6355E6262228C77C0028471B /* CJQMainModuleAPI.m in Sources */,
 				6313323D218BF6E800040D8B /* CJQTestTwoVC.m in Sources */,
 				6307EE042228345F00B4F4FB /* CJQMiddleView.m in Sources */,
 				6307EE022228345F00B4F4FB /* CJQNavigationController.m in Sources */,
