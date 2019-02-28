@@ -4,5 +4,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'CJQFM' do
   
-   pod 'CJPBaseComponents', '~> 0.1.0'
+   pod 'CJPBaseComponents/Category', '~> 0.2.1'
 end

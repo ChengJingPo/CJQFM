@@ -1,16 +1,16 @@
 PODS:
-  - CJPBaseComponents (0.1.0)
+  - CJPBaseComponents/Category (0.2.1)
 
 DEPENDENCIES:
-  - CJPBaseComponents (~> 0.1.0)
+  - CJPBaseComponents/Category (~> 0.2.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CJPBaseComponents
 
 SPEC CHECKSUMS:
-  CJPBaseComponents: 709af7f287669534e8818143a1e40d88d65bce9f
+  CJPBaseComponents: 0f49dd1052c86520fc67471736b4fac87a87baef
 
-PODFILE CHECKSUM: e06ad4e82e87d61d00eda52c108fe7c207b3b72c
+PODFILE CHECKSUM: 5c7a6bf2caf6eaaa502a0844357614a05d765e30
 
 COCOAPODS: 1.6.0.beta.2

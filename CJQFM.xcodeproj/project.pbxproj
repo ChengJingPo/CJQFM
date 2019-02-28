@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6307EE012228345F00B4F4FB /* CJQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EDF72228345E00B4F4FB /* CJQTabBarController.m */; };
+		6307EE022228345F00B4F4FB /* CJQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EDF82228345E00B4F4FB /* CJQNavigationController.m */; };
+		6307EE032228345F00B4F4FB /* CJQMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6307EDFD2228345E00B4F4FB /* CJQMiddleView.xib */; };
+		6307EE042228345F00B4F4FB /* CJQMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EDFE2228345E00B4F4FB /* CJQMiddleView.m */; };
+		6307EE052228345F00B4F4FB /* CJQNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EDFF2228345E00B4F4FB /* CJQNavBar.m */; };
+		6307EE062228345F00B4F4FB /* CJQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EE002228345E00B4F4FB /* CJQTabBar.m */; };
+		6313323A218BF65800040D8B /* CJQTestOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63133239218BF65800040D8B /* CJQTestOneVC.m */; };
+		6313323D218BF6E800040D8B /* CJQTestTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6313323C218BF6E800040D8B /* CJQTestTwoVC.m */; };
 		6354D2B12184564700AC15A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6354D2AF2184564700AC15A7 /* Main.storyboard */; };
 		6354D2B32184564800AC15A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6354D2B22184564800AC15A7 /* Assets.xcassets */; };
 		6354D2CD2184572900AC15A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6354D2C92184572900AC15A7 /* main.m */; };
@@ -17,6 +25,21 @@
 
 /* Begin PBXFileReference section */
 		5A32787DD5444B933C62FA90 /* libPods-CJQFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJQFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6307EDF52228345E00B4F4FB /* CJQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJQTabBarController.h; sourceTree = "<group>"; };
+		6307EDF62228345E00B4F4FB /* CJQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJQNavigationController.h; sourceTree = "<group>"; };
+		6307EDF72228345E00B4F4FB /* CJQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJQTabBarController.m; sourceTree = "<group>"; };
+		6307EDF82228345E00B4F4FB /* CJQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJQNavigationController.m; sourceTree = "<group>"; };
+		6307EDFA2228345E00B4F4FB /* CJQMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJQMiddleView.h; sourceTree = "<group>"; };
+		6307EDFB2228345E00B4F4FB /* CJQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJQTabBar.h; sourceTree = "<group>"; };
+		6307EDFC2228345E00B4F4FB /* CJQNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJQNavBar.h; sourceTree = "<group>"; };
+		6307EDFD2228345E00B4F4FB /* CJQMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJQMiddleView.xib; sourceTree = "<group>"; };
+		6307EDFE2228345E00B4F4FB /* CJQMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJQMiddleView.m; sourceTree = "<group>"; };
+		6307EDFF2228345E00B4F4FB /* CJQNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJQNavBar.m; sourceTree = "<group>"; };
+		6307EE002228345E00B4F4FB /* CJQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJQTabBar.m; sourceTree = "<group>"; };
+		63133238218BF65800040D8B /* CJQTestOneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJQTestOneVC.h; sourceTree = "<group>"; };
+		63133239218BF65800040D8B /* CJQTestOneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJQTestOneVC.m; sourceTree = "<group>"; };
+		6313323B218BF6E800040D8B /* CJQTestTwoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJQTestTwoVC.h; sourceTree = "<group>"; };
+		6313323C218BF6E800040D8B /* CJQTestTwoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJQTestTwoVC.m; sourceTree = "<group>"; };
 		6354D2A62184564700AC15A7 /* CJQFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJQFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6354D2B02184564700AC15A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6354D2B22184564800AC15A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +64,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6307EDF32228345E00B4F4FB /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				6307EDF42228345E00B4F4FB /* Controller */,
+				6307EDF92228345E00B4F4FB /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		6307EDF42228345E00B4F4FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6307EDF52228345E00B4F4FB /* CJQTabBarController.h */,
+				6307EDF72228345E00B4F4FB /* CJQTabBarController.m */,
+				6307EDF62228345E00B4F4FB /* CJQNavigationController.h */,
+				6307EDF82228345E00B4F4FB /* CJQNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6307EDF92228345E00B4F4FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6307EDFD2228345E00B4F4FB /* CJQMiddleView.xib */,
+				6307EDFA2228345E00B4F4FB /* CJQMiddleView.h */,
+				6307EDFE2228345E00B4F4FB /* CJQMiddleView.m */,
+				6307EDFB2228345E00B4F4FB /* CJQTabBar.h */,
+				6307EE002228345E00B4F4FB /* CJQTabBar.m */,
+				6307EDFC2228345E00B4F4FB /* CJQNavBar.h */,
+				6307EDFF2228345E00B4F4FB /* CJQNavBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6354D29D2184564600AC15A7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				6354D2C42184572900AC15A7 /* Classes */,
+				63133238218BF65800040D8B /* CJQTestOneVC.h */,
+				63133239218BF65800040D8B /* CJQTestOneVC.m */,
+				6313323B218BF6E800040D8B /* CJQTestTwoVC.h */,
+				6313323C218BF6E800040D8B /* CJQTestTwoVC.m */,
 				6354D2D9218459DE00AC15A7 /* ReSources */,
 			);
 			path = CJQFM;
@@ -71,7 +132,7 @@
 		6354D2C42184572900AC15A7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6354D2CC2184572900AC15A7 /* MainModule */,
+				6307EDF32228345E00B4F4FB /* MainModule */,
 				6354D2C62184572900AC15A7 /* Other */,
 			);
 			path = Classes;
@@ -94,13 +155,6 @@
 				6354D2CB2184572900AC15A7 /* Info.plist */,
 			);
 			path = System;
-			sourceTree = "<group>";
-		};
-		6354D2CC2184572900AC15A7 /* MainModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MainModule;
 			sourceTree = "<group>";
 		};
 		6354D2D9218459DE00AC15A7 /* ReSources */ = {
@@ -191,6 +245,7 @@
 			files = (
 				6354D2DA21845CFB00AC15A7 /* LaunchScreen.storyboard in Resources */,
 				6354D2B32184564800AC15A7 /* Assets.xcassets in Resources */,
+				6307EE032228345F00B4F4FB /* CJQMiddleView.xib in Resources */,
 				6354D2B12184564700AC15A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,8 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6307EE012228345F00B4F4FB /* CJQTabBarController.m in Sources */,
+				6313323A218BF65800040D8B /* CJQTestOneVC.m in Sources */,
 				6354D2CD2184572900AC15A7 /* main.m in Sources */,
+				6313323D218BF6E800040D8B /* CJQTestTwoVC.m in Sources */,
+				6307EE042228345F00B4F4FB /* CJQMiddleView.m in Sources */,
+				6307EE022228345F00B4F4FB /* CJQNavigationController.m in Sources */,
+				6307EE052228345F00B4F4FB /* CJQNavBar.m in Sources */,
 				6354D2CE2184572900AC15A7 /* AppDelegate.m in Sources */,
+				6307EE062228345F00B4F4FB /* CJQTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
