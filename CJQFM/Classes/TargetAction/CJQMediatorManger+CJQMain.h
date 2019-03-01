@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJQMediatorManger (CJQMain)
 
-+ (UIViewController *)rootTabBarController;
++(UIViewController *)rootTabBarController;
 
 + (void)addChildVC: (UIViewController *)vc normalImageName: (NSString *)normalImageName selectedImageName: (NSString *)selectedImageName isRequiredNavController: (BOOL)isRequired;
 

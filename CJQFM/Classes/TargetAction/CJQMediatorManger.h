@@ -12,7 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJQMediatorManger : NSObject
 
-+ (id)performTarget: (NSString *)targetName
++(instancetype)sharedInstance;
+
+- (id)openUrl: (NSString *)urlStr WithParams: (NSDictionary *)ExtenParams;
+
+-(id)performTarget: (NSString *)targetName
              action: (NSString *)actionName
              params: (id __nullable)params
              isRequiredReturnValue: (BOOL)isRequiredReturnValue;

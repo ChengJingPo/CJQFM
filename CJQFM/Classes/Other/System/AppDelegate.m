@@ -83,6 +83,9 @@
 //    self.window.rootViewController = [CJQMainModuleAPI rootTabBarController];
     
     // 3 .体验路由方案（target-action)
+    
+    //4. 在3的体验基础上，通过URL进行操作，同时增加了返回类型是非对象类型的方法（action)的处理方法--通过消息转发（NSInvoction)处理
+    
     [CJQMediatorManger addChildVC:[CJQTestOneVC new]
                        normalImageName:@"tabbar_find_n"
                        selectedImageName:@"tabbar_find_h"
@@ -100,7 +103,7 @@
                 selectedImageName:@"tabbar_me_h"
           isRequiredNavController:YES];
     
-    self.window.rootViewController = [CJQMediatorManger rootTabBarController];
+    self.window.rootViewController = [CJQMediatorManger  rootTabBarController];
     [self.window  makeKeyAndVisible];
     return YES;
     
